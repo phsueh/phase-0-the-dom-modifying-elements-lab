@@ -1,4 +1,4 @@
-document.body.remove('main');
+document.querySelector('main').remove();
 const newHeader = document.createElement('h1');
 newHeader.id = 'victory';
-newHeader.innerHTML = '<h1> is the champion </h1>';
+newHeader.innerHTML = 'is the champion';
